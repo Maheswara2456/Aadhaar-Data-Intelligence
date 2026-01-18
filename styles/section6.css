@@ -1,0 +1,98 @@
+.gov-hero{
+text-align:center;
+padding:50px 20px 30px;
+}
+
+.gov-hero h1{
+font-size:2.6rem;
+font-weight:700;
+letter-spacing:0.5px;
+}
+
+.gov-hero p{
+font-size:1.1rem;
+opacity:0.85;
+margin-top:10px;
+}
+
+.gov-section{
+margin:40px auto;
+max-width:900px;
+}
+
+.gov-section.center{
+text-align:center;
+}
+
+.gov-section h2{
+font-size:1.6rem;
+margin-bottom:14px;
+}
+
+.gov-section p{
+font-size:1.02rem;
+line-height:1.6;
+opacity:0.9;
+margin-bottom:12px;
+}
+
+.simple-list{
+list-style:none;
+padding:0;
+margin-top:10px;
+}
+
+.simple-list li{
+margin-bottom:8px;
+font-size:1rem;
+opacity:0.9;
+}
+
+.final-insight{
+margin:45px auto;
+padding:30px;
+max-width:900px;
+border-radius:18px;
+background:linear-gradient(135deg,#020617,#0f172a);
+border:1px solid rgba(255,255,255,0.1);
+text-align:center;
+}
+
+.final-insight h2{
+font-size:1.6rem;
+margin-bottom:12px;
+}
+
+.final-insight p{
+font-size:1.02rem;
+opacity:0.95;
+}
+
+.certificate-box{
+margin:55px auto;
+padding:35px;
+max-width:900px;
+border-radius:20px;
+background:linear-gradient(135deg,#0f172a,#020617);
+border:1px dashed rgba(255,255,255,0.25);
+text-align:center;
+}
+
+.certificate-box h2{
+font-size:1.5rem;
+margin-bottom:14px;
+}
+
+.certificate-box p{
+font-size:1.02rem;
+opacity:0.95;
+margin-bottom:10px;
+}
+
+.section-next{
+margin-top:50px;
+text-align:center;
+font-size:1.05rem;
+opacity:0.85;
+letter-spacing:0.6px;
+}
