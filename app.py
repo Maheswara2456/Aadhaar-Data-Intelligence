@@ -212,8 +212,9 @@ with st.sidebar:
 # ===============================
 # FLOATING NEXT
 # ===============================
-st.markdown("""
-<a href="/Data_Landscape" class="floating-next">
-    &raquo;
-</a>
-""", unsafe_allow_html=True)
+# ===============================
+# FLOATING NEXT (STREAMLIT SAFE)
+# ===============================
+if st.button("»", key="next_page"):
+    st.switch_page("pages/01_Data_Landscape.py")
+
