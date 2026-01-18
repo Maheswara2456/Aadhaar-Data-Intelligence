@@ -72,7 +72,7 @@ html = f"""
   </div>
 
   <div class="info-right">
-    <a href="#" target="_blank">GitHub Repository</a>
+    <a href="https://github.com/Maheswara2456/Aadhaar-Data-Intelligence" target="_blank">GitHub Repository</a>
     <a href="#" target="_blank">Project Documentation</a>
   </div>
 
