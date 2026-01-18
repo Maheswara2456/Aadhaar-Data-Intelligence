@@ -170,8 +170,5 @@ st.markdown("""
 # ===============================
 # 🔥 FLOATING FORWARD BUTTON (ADDED)
 # ===============================
-st.markdown("""
-<a href="/Living_Identity" class="floating-next">
-    &raquo;
-</a>
-""", unsafe_allow_html=True)
+if st.button("»", key="next_page"):
+    st.switch_page("pages/04_Living_Identity.py")

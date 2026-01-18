@@ -199,8 +199,5 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-<a href="/District_Pressure_AP" class="floating-next">
-    &raquo;
-</a>
-""", unsafe_allow_html=True)
+if st.button("»", key="next_page"):
+    st.switch_page("pages/01_Data_Landscape.py")

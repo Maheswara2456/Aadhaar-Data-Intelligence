@@ -114,8 +114,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown("""
-<a href="/Temporal_Behaviour" class="floating-next">
-    &raquo;
-</a>
-""", unsafe_allow_html=True)
+if st.button("»", key="next_page"):
+    st.switch_page("pages/02_Temporal_Behaviour.py")

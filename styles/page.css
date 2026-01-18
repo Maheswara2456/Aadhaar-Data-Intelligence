@@ -45,6 +45,7 @@
     color: #d1d5db;
 }
 
+/* 🔹 Highlight important phrases safely */
 .page-intro b {
     color: #93c5fd;
     font-weight: 600;
@@ -90,7 +91,7 @@
 }
 
 /* =================================================
-   MICRO NOTES
+   MICRO NOTES (EXPLANATIONS)
 ================================================= */
 
 .page-note {
@@ -123,6 +124,7 @@
     margin-bottom: 14px;
 }
 
+/* 🔹 Optional subtitle (used in Page 2+, ignored elsewhere) */
 .section-subtitle {
     text-align: center;
     font-size: 14.5px;
@@ -131,7 +133,7 @@
 }
 
 /* =================================================
-   INSIGHT BOX
+   INSIGHT BOX (USED FROM PAGE 2 ONWARDS)
 ================================================= */
 
 .insight-box {
@@ -139,11 +141,13 @@
     margin: 30px auto 10px auto;
     padding: 20px 22px;
     border-radius: 16px;
+
     background: linear-gradient(
         135deg,
         rgba(20, 35, 60, 0.95),
         rgba(10, 20, 35, 0.95)
     );
+
     border: 1px solid rgba(255,255,255,0.12);
 }
 
@@ -161,7 +165,7 @@
 }
 
 /* =================================================
-   PAGE EXIT
+   PAGE EXIT / TRANSITION
 ================================================= */
 
 .page-exit {
@@ -178,7 +182,7 @@
 }
 
 /* =================================================
-   STREAMLIT CAPTION
+   STREAMLIT CAPTION TONE (SAFE OVERRIDE)
 ================================================= */
 
 .stCaption {
@@ -203,13 +207,7 @@
         font-size: 15px;
     }
 }
-
-/* =================================================
-   FLOATING NEXT BUTTON (STREAMLIT SAFE)
-================================================= */
-
-/* This styles st.button(), NOT <a href> */
-button[kind="secondary"] {
+.floating-next {
     position: fixed;
     right: 22px;
     top: 50%;
@@ -218,19 +216,45 @@ button[kind="secondary"] {
     height: 36px;
     border-radius: 50%;
     background: linear-gradient(135deg, #dddd09, #409cc4);
-    color: #020617;
+    color: #b7e002;
     font-size: 26px;
-    font-weight: 800;
-    border: none;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
     box-shadow: 0 0 18px rgba(125, 46, 100, 0.45);
     z-index: 9999;
     transition: all 0.25s ease;
 }
 
-button[kind="secondary"]:hover {
+.floating-next:hover {
     transform: translateY(-50%) scale(1.15);
     box-shadow: 0 0 28px rgba(96, 165, 250, 0.9);
+}
+button[kind="secondary"] {
+    position: fixed;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #3b82f6, #22d3ee);
+    color: #020617;
+    font-size: 26px;
+    font-weight: 800;
+    border: none;
+    box-shadow:
+        0 0 22px rgba(59,130,246,0.55),
+        0 0 0 1px rgba(255,255,255,0.25) inset;
+    z-index: 9999;
+    transition: all 0.25s ease;
+}
+
+button[kind="secondary"]:hover {
+    transform: translateY(-50%) scale(1.18);
+    box-shadow:
+        0 0 34px rgba(96,165,250,0.9),
+        0 0 0 1px rgba(255,255,255,0.35) inset;
 }

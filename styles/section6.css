@@ -96,3 +96,29 @@ font-size:1.05rem;
 opacity:0.85;
 letter-spacing:0.6px;
 }
+button[kind="secondary"] {
+    position: fixed;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #3b82f6, #22d3ee);
+    color: #020617;
+    font-size: 26px;
+    font-weight: 800;
+    border: none;
+    box-shadow:
+        0 0 22px rgba(59,130,246,0.55),
+        0 0 0 1px rgba(255,255,255,0.25) inset;
+    z-index: 9999;
+    transition: all 0.25s ease;
+}
+
+button[kind="secondary"]:hover {
+    transform: translateY(-50%) scale(1.18);
+    box-shadow:
+        0 0 34px rgba(96,165,250,0.9),
+        0 0 0 1px rgba(255,255,255,0.35) inset;
+}
