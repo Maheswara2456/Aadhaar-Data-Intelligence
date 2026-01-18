@@ -157,8 +157,5 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-<a href="/Predictive_Insight" class="floating-next">
-    &raquo;
-</a>
-""", unsafe_allow_html=True)
+if st.button("»", key="next_page"):
+    st.switch_page("pages/07_Predictive_Insight.py")

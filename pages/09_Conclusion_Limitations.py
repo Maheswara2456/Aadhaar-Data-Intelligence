@@ -101,6 +101,6 @@ to discussions on digital public infrastructure.
 
 st.markdown("""
 <div class="section-next center">
-<b>— End of Submission —</b>
+<b>— ---THANK YOU----- —</b>
 </div>
 """,unsafe_allow_html=True)

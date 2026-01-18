@@ -180,8 +180,5 @@ Page 8 — Governance Controls & Global-Inspired Solutions
 </div>
 """,unsafe_allow_html=True)
 
-st.markdown("""
-<a href="/Governance_Implications" class="floating-next">
-    &raquo;
-</a>
-""", unsafe_allow_html=True)
+if st.button("»", key="next_page"):
+    st.switch_page("pages/08_Governance_Implications.py")
