@@ -73,7 +73,7 @@ html = f"""
 
   <div class="info-right">
     <a href="https://github.com/Maheswara2456/Aadhaar-Data-Intelligence" target="_blank">GitHub Repository</a>
-    <a href="https://github.com/Maheswara2456/Aadhaar-Data-Intelligence/blob/main/README.md" target="_blank">Project Documentation</a>
+    <div class="info-muted">TEAM CODE:UIDAI_2279</div>
   </div>
 
 </div>
