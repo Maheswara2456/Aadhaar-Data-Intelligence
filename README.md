@@ -1,15 +1,12 @@
-# 🪪 Aadhaar Data Intelligence
-
+# 🪪 Aadhaar Data Intelligence  
 ### A Study on Aadhaar as a Living Digital Infrastructure
 
 ---
 
 ## 🔗 Live Application
-
 👉 https://aadhaar-data-intelligence-zviagj75r8yjmhao7rt7kq.streamlit.app/
 
 ## 🔗 GitHub Repository
-
 👉 https://github.com/Maheswara2456/Aadhaar-Data-Intelligence
 
 ---
@@ -21,7 +18,6 @@
 Instead of treating updates as administrative noise, this project demonstrates that Aadhaar operates as a **continuous, service-linked digital infrastructure**, reflecting persistent citizen–state interaction.
 
 The project focuses on:
-
 - Temporal behaviour of Aadhaar updates
 - District-level operational pressure
 - Living identity dynamics
@@ -39,16 +35,13 @@ The project focuses on:
 ## 🧭 Data Scope & Methodology
 
 ### Geographic Scope
-
 - Andhra Pradesh (state-level aggregation)
 - Used strictly as a **methodological case study**
 
 ### Temporal Scope
-
 - 12 consecutive months of Aadhaar update data
 
 ### Metrics Used
-
 - Monthly Aadhaar update volumes
 - Enrolments excluded to isolate operational load
 
